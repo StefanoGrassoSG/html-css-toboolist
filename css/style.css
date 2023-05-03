@@ -14,3 +14,18 @@
 body {
     background-color: #f6f8f9;
 }
+
+/*HEADER*/
+header {
+    background-color: white;
+    padding: 20px;
+}
+
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-logo {
+    vertical-align: middle;
+}
