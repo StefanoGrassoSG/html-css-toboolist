@@ -18,7 +18,7 @@ body {
 /*HEADER*/
 header {
     background-color: white;
-    padding: 20px;
+    padding: 15px;
     margin-bottom: 50px;
 }
 
@@ -63,7 +63,11 @@ h1 {
 
 /*SECTIONS*/
 .padding {
-    padding: 30px 45px;
+    padding: 15px 45px;
+}
+
+.category-row {
+    margin-bottom: 25px;
 }
 
 .text {
@@ -73,18 +77,28 @@ h1 {
     margin-bottom: 15px
 }
 
-.check {
-    border: 1px solid green;
+.entity {
     width: 25px;
     height: 25px;
     display: inline-block;
     border-radius: 50%;
-    color: green;
     text-align: center;
     line-height: 25px;
 }
 
-.newsletter {
+.check {
+    border: 1px solid green;
+    color: green;
+}
+
+.cross {
+    border: 1px solid red;
+    color: red;
+}
+
+
+
+.text-category {
     font-size: 20px;
     font-weight: 500;
     color: rgb(89, 92, 100);
@@ -92,7 +106,30 @@ h1 {
 
 .category {
     color: white;
-    background-color:#47adf1;
     padding: 8px 20px;
     border-radius: 10px;
+}
+
+.editioral {
+    background-color: #47adf1;
+}
+
+.goals {
+    background-color: purple;
+}
+
+.recruit {
+    background-color: lightgreen;
+}
+
+.mobile {
+    background-color: orange;
+}
+
+.homepage {
+    background-color: pink;
+}
+
+.sales {
+    background-color: greenyellow;
 }
