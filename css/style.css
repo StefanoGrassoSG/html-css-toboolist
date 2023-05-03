@@ -19,6 +19,7 @@ body {
 header {
     background-color: white;
     padding: 20px;
+    margin-bottom: 50px;
 }
 
 h1 {
@@ -28,4 +29,70 @@ h1 {
 
 .main-logo {
     vertical-align: middle;
+}
+
+/*CONTAINER*/
+.container {
+    width: 60%;
+    margin: auto;
+    background-color: white;
+}
+
+/*BUTTONS SECTION*/
+.actions {
+    padding: 15px 50px;
+    border-bottom: 3px solid #f6f8f9;
+}
+
+.button {
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.task {
+    background-color: #47adf1;
+    border: 1px solid #47adf1;
+    color: white;
+}
+
+.section {
+    background-color: white;
+    color:lightgrey;
+    border: 1px solid lightgrey;
+}
+
+/*SECTIONS*/
+.padding {
+    padding: 30px 45px;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(76, 78, 84);
+    margin-bottom: 15px
+}
+
+.check {
+    border: 1px solid green;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 50%;
+    color: green;
+    text-align: center;
+    line-height: 25px;
+}
+
+.newsletter {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(89, 92, 100);
+}
+
+.category {
+    color: white;
+    background-color:#47adf1;
+    padding: 8px 20px;
+    border-radius: 10px;
 }
